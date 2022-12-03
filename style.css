@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    border: 1px solid #C4C4C4;
+    width: 336px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+.headline{
+    height: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFDC40;
+    margin-bottom: 17px;
+}
+h1{
+    font-size: 26px;
+    text-align: center;
+}
+.sort{
+    width: 25px;
+    height: 15px;
+    margin-left: 283px;
+    margin-bottom: 12px;
+    border: 0px;
+    background-color: white;
+}
+.sort svg:hover * {
+    fill: black;
+}
+.down{
+    display: block;
+}
+.up{
+    display: none;
+}
+.input-text{
+    height: 40px;
+    width: 286px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    margin: 0px 25px 18px 25px;
+    padding-left: 27px;
+}
+.to-do-list{
+    width: 286px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    margin: 0px 25px 18px 25px;
+    display: none;
+}
+.delete-button{
+    border: 0px;
+    border-radius: 50%;
+    height: 20px;
+    background-color: white;
+    margin-top: 9px;
+    padding-right: 25px;
+}
+.delete-button svg:hover{
+    fill: #833AE0;
+}
+button:hover{
+    cursor: pointer;
+}
+.add-button{
+    width: 150px;
+    height: 42px;
+    background: #833AE0;
+    border-radius: 71px;
+    text-align: center;
+    border: 0px;
+    margin: 0px 92px 19px 94px;
+    display: flex;
+    color: white;  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;  
+}
+.adding-symbol{
+    width: 42px;
+    height: 42px;
+    background: #9953F1;
+    border-radius: 71px;
+    padding-top: 13px;
+}
+.adding-text{
+    padding-top: 13px;
+    padding-left: 14px;
+}
